@@ -7,6 +7,6 @@ class Hash
         return_array << key
   end
   end
+  return_array
 end
-return_array
 end
