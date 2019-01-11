@@ -3,7 +3,7 @@ class Hash
   def keys_of(*arguments)
     self.each do |key, val|
       if arguments.include?(val)
-        key
+        [key]
   end
   end
 end
