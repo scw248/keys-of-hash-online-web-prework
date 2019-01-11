@@ -1,11 +1,9 @@
 class Hash
-  def keys_of(arg1, arg2)
-    return_array = []
+  def keys_of(*arguments)
     Hash.each do |key, val|
-      if val = arg1 || arg2
-        return_array << key
+      if arguments.include?(val)
+        key
   end
   end
 end
-return_array
 end
