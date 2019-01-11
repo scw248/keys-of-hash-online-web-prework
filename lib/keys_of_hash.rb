@@ -1,11 +1,8 @@
 class Hash
-  def keys_of(*arguments)
-    arguments.each do |species, country|
-      species
-    end
-    elsif arguments.include?(val.to_i)
+  def keys_of(arg)
     arguments.each do |key, val|
-      
+      if val = val.to_s
+        key
   end
   end
 end
